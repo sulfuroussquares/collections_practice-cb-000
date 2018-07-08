@@ -24,4 +24,8 @@ def kesha_maker(array)
     |word| word[2] = "$"
     newArray << word
   end
+  
+  def find_a(array)
+    
+  end
 end
