@@ -24,8 +24,8 @@ def kesha_maker(array)
     |word| word[2] = "$"
     newArray << word
   end
+end
   
   def find_a(array)
     array.select {|word| word[0] == "a" || word[0] == "A"}
-  end
 end
