@@ -35,5 +35,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  
+    newArray = []
+  array.each do 
+    |word| word[2] = "$"
+    newArray << word
+  end
 end
