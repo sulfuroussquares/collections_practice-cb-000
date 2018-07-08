@@ -30,6 +30,6 @@ end
     array.select {|word| word[0] == "a" || word[0] == "A"}
 end
 
-def sum_array
+def sum_array(array)
   
 end
